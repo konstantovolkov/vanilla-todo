@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vanilla Todo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+            <img src="assets/hamburger.svg" alt="icon">
+            <form class="add-todo-form">
+                <input type="text" name="todo" placeholder="Add a new task">
+            </form>
+        </div>
+        <main class="columns">
+            <section class="column">
+                <header class="column-header">
+                    Active
+                </header>
+                <ul class="todos" data-todos="active">
+                    <!--todo-template-inserted-here-->
+                </ul>
+            </section>
+            <section class="column">
+                <header class="column-header">
+                    Done
+                </header>
+                <ul class="todos" data-todos="completed">
+                    <!--todo-template-inserted-here-->
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
